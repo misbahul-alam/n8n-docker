@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+
+n8n_data/
+.n8n/
+
+*.log
+
+docker-compose.override.yml
+
+.DS_Store
+Thumbs.db
