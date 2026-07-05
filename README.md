@@ -10,7 +10,6 @@ Simple Docker Compose setup for running **n8n**.
 ## Run
 
 ```bash
-cp .env.example .env
 docker compose up -d
 ```
 
