@@ -27,3 +27,17 @@ docker compose down
 docker compose pull
 docker compose up -d
 ```
+
+## Fly.io
+
+Create the persistent volume once before deploying:
+
+```bash
+fly volumes create n8n_data --size 1 --region ams
+```
+
+Then deploy with:
+
+```bash
+fly deploy
+```

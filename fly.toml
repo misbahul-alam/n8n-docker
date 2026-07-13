@@ -8,6 +8,10 @@ primary_region = 'ams'
 
 [build]
 
+[[mounts]]
+  source = 'n8n_data'
+  destination = '/home/node/.n8n'
+
 [http_service]
   internal_port = 5678
   force_https = true
